@@ -1,4 +1,4 @@
-# wethenew-client 
+# wethenew-client
 
 ## Overview
 The wethenew-client is an unofficial Python wrapper for the API of the Wethenew sneaker platform. It facilitates interactions with the platform, allowing users to manage their sneaker listings and offers. This project is independent and is not officially associated with Wethenew.
@@ -29,9 +29,9 @@ When listing a product or retrieving current listings, you can specify filters t
 #### ListingDuration
 This filter is used to specify the duration for which a product will be listed on the platform. The possible values are:
 
+- `Days15`: List the product for 15 days.
 - `Days30`: List the product for 30 days.
 - `Days60`: List the product for 60 days.
-- `Days90`: List the product for 90 days.
 
 ## Usage Example
 ```python
